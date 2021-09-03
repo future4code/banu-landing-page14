@@ -211,11 +211,41 @@ footer {
   background-color: #de463b;
   color: #ffffff;
 }
+
 h3{
   color:rgba(0, 0, 0, 0.527);
   align-self:center;
 }
+
 .icones{
   width: 18px;
   margin-top: 3px;
+}
+
+.banner{
+  background-color: #F58B3B;
+  height:50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 4em;
+}
+
+.banner h3{
+  width:20vw;
+}
+
+.banner-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#delivery-image{
+  width:50%;
 }
