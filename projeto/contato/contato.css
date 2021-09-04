@@ -70,15 +70,15 @@ a.active, a:hover {
   }
 
   ul{
-      position: fixed;
-      top:100px;
-      left: -100%;
-      width:100%;
-      height: 100vh;
-      background: #be823eed;
-      text-align: center;
-      transition: all 0.5s;
-  }
+    position: absolute;
+    top:100px;
+    left: -100%;
+    width:100%;
+    background: #be823eed;
+    text-align: center;
+    transition: all 0.5s;
+    z-index:9999;
+}
   nav ul li {
       display:block;
       margin: 40px 0;
@@ -103,18 +103,41 @@ a.active, a:hover {
 
 /* footer */
 
+.metodo{
+  padding-top: 25px;
+}
+.cartoes{
+  width: 30px;
+  padding-top: 15px;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 footer {
-  position: static;
+  position:static;
   bottom:0;
-  display: inline-flex;
+  display:inline-flex;
   height: 4.5rem;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(315deg, #F58B3B, #eea56d);
+  justify-content: space-around;
+  flex-wrap:wrap;
 }
+@media (max-width:1182px){
+  footer{
+    display: block;
+    background: linear-gradient(315deg, #F58B3B, #eea56d);
+    display: inline-table;
+  }
+  .cartoes{
+    display:none;
 
+  }
+  .metodo{
+    display:none;
+  }
+}
 .wrapper {
   display: inline-flex;
 }

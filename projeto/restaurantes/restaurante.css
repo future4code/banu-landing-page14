@@ -70,14 +70,14 @@ a.active, a:hover {
   }
 
   ul{
-      position: fixed;
+      position: absolute;
       top:100px;
       left: -100%;
       width:100%;
-      height: 100vh;
       background: #be823eed;
       text-align: center;
       transition: all 0.5s;
+      z-index:9999;
   }
   nav ul li {
       display:block;
@@ -102,19 +102,41 @@ a.active, a:hover {
 }
 
 /* footer */
+.metodo{
+  padding-top: 25px;
+}
+.cartoes{
+  width: 25px;
+  padding-top: 10px;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 footer {
   position:static;
   bottom:0;
-  display: inline-flex;
+  display:inline-flex;
   height: 4.5rem;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(315deg, #F58B3B, #eea56d);
+  justify-content: space-around;
+  flex-wrap:wrap;
 }
+@media (max-width:1182px){
+  footer{
+    display: block;
+    background: linear-gradient(315deg, #F58B3B, #eea56d);
+    display: inline-table;
+  }
+  .cartoes{
+    display:none;
 
+  }
+  .metodo{
+    display:none;
+  }
+}
 .wrapper {
   display: inline-flex;
 }
@@ -220,7 +242,11 @@ h3{
   margin-top: 3px;
 }
 
+
 /* body */
+
+
+
 .menu{
   padding: 60px 10px;
   padding-bottom: 20px;
