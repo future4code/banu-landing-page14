@@ -8,13 +8,12 @@
 
 > Este projeto é uma atividade proposta pela Labenu. Nosso objetivo é criar um site fictício para uma plataforma de delivery do setor alimentício utilizando as tecnologias html, css e javascript aprendidas no curso até então.
 
-*********************************************
+
 
 ## ✅ O que está funcionando
 
 Página Inicial, Restaurantes, Mercados e Cupons.
 
-*********************************************
 
 ## 🌐 Critérios
 
@@ -25,13 +24,13 @@ Página Inicial, Restaurantes, Mercados e Cupons.
 - [x] Paleta de cores <https://color.adobe.com/pt/4Food%20Pallete-color-theme-18444602>
 - [x] 6 seções navegáveis
 
-*********************************************
+
 
 ## 🌎 Como acessar o projeto
 
 <https://awful-taste.surge.sh/index.html>
 
-*********************************************
+
 
 ## 🤝 Desenvolvedores
 
