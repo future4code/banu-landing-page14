@@ -241,3 +241,35 @@ h3{
   width: 18px;
   margin-top: 3px;
 }
+/* main */
+
+.sobre-nos {
+  font-size: 24px;
+  color: white;
+  padding: 12px;
+}
+
+.banner-quem-somos {
+  display: flex;
+  background: linear-gradient(315deg, #F58B3B, white);
+  color: #532d01a1;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cultura {
+  display: flex;
+  background: linear-gradient(315deg, white, #eea56d);
+  color: #532d01a1;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12px;
+}
+
+.imagem-banner {
+  max-width: 20vw;
+  padding: 20 px;
+}
