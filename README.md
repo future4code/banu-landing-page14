@@ -21,7 +21,7 @@ Página Inicial, Restaurantes, Mercados e Cupons.
 - [x] Responsividade
 - [x] Semântica do HTML 5
 - [x] Ícones de redes sociais
-- [ ] Css comentado
+- [x] Css comentado
 - [x] Paleta de cores <https://color.adobe.com/pt/4Food%20Pallete-color-theme-18444602>
 - [x] 6 seções navegáveis
 
